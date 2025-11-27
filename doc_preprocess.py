@@ -19,4 +19,4 @@ class DocumentProcess:
         return documents
 
 processor = DocumentProcess()
-print(len(processor.load_documents(r"D:\移动硬盘\下载\llm\llm-cookbook-main\docs\C2")))
+print(len(processor.load_documents(r"")))
