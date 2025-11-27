@@ -27,7 +27,7 @@ class LLM(BaseLLM):
         return response.choices[0].message.content
 
 
-llm = LLM(model_name="hunyuan-lite", api_key="sk-NRzBYz0QrK0fOVIrWajb4gbeqEaCWcq1l0BH6X76pJm8th6r")
+llm = LLM(model_name="hunyuan-lite", api_key="")
 
 print(llm.predict("你好"))
 
