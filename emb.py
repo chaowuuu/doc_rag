@@ -25,6 +25,6 @@ class BGEEmbedding(BaseEmb):
     def get_emb(self, text: str) -> List[float]:
         return self.embed_model.get_text_embedding(text)
 
-# emb = BGEEmbedding(r"C:\Users\chao\Downloads\bge-m3")
-emb = BGEEmbedding(r"D:\移动硬盘\下载\all-MiniLM-L6-v2")
+# emb = BGEEmbedding(r"")
+emb = BGEEmbedding(r"")
 print(emb.get_emb("建筑结构的安全性检查包括哪些方面？"))
