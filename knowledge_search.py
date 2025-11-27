@@ -494,8 +494,8 @@ if __name__ == "__main__":
     )
     # 嵌入模型
     print("=" * 10 + "构建嵌入模型" + "=" * 10)
-    # embedding = BGEEmbedding(model_name=r"C:\Users\chao\Downloads\bge-m3")
-    embedding = BGEEmbedding(model_name=r"D:\移动硬盘\下载\all-MiniLM-L6-v2")
+    # embedding = BGEEmbedding(model_name=r"")
+    embedding = BGEEmbedding(model_name=r"")
     # Query 分级工具
     key_extractor = KeyInfoExtractor(llm)
     # 知识库 构建工具
@@ -542,6 +542,7 @@ if __name__ == "__main__":
         print(f"审查问题: {query}")
         print(f"修订建议: {analysis['revision']['revision_suggestions']}")
         print("-" * 50)
+
 
 
 
